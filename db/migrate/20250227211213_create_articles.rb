@@ -7,7 +7,6 @@ class CreateArticles < ActiveRecord::Migration[6.0]
       t.string :category, null: false
       t.date :published_at, null: false
 
-      t.timestamps
     end
   end
 end

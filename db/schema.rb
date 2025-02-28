@@ -13,13 +13,12 @@
 ActiveRecord::Schema.define(version: 2025_02_27_211213) do
 
   create_table "articles", force: :cascade do |t|
-    t.string "title",  null: false
+    t.string "title", null: false
     t.string "content", null: false
     t.string "author", null: false
     t.string "category", null: false
     t.date "published_at", null: false
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
+
   end
 
 end
